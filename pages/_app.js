@@ -12,6 +12,10 @@ function MyApp({ Component, pageProps }) {
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
           crossOrigin="anonymous"
         />
+        <link
+          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+          rel="stylesheet"
+        />
       </Head>
       <Script
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -25,6 +29,15 @@ function MyApp({ Component, pageProps }) {
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         strategy="beforeInteractive"
       />
+      <Script
+        src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+        strategy="beforeInteractive"
+      />
+      <Script>
+        {`
+          AOS.init();
+        `}
+      </Script>
       <Component {...pageProps} />
     </>
   )

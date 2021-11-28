@@ -259,14 +259,14 @@ export default function Register() {
       </Script> */}
       <RegisterDiv>
         <div className="container">
-          <div className="img">
+          <div className="img" data-aos="fade-right" data-aos-delay="1500">
             <img src="/images/Landing/register.svg" alt="" />
           </div>
           <div className="login-content">
             <form action="" method="POST">
               <img src="/images/Landing/avatar.svg" alt="" />
-              <h2 className="title">Register</h2>
-              <div className="input-div one">
+              <h2 className="title" data-aos="fade-up">Register</h2>
+              <div className="input-div one" data-aos="fade-up" data-aos-delay="300">
                 <div className="i">
                   <i className="fas fa-user"></i>
                 </div>
@@ -274,7 +274,7 @@ export default function Register() {
                   <input type="text" className="input" name="username" placeholder="Username" />
                 </div>
               </div>
-              <div className="input-div pass">
+              <div className="input-div pass" data-aos="fade-up" data-aos-delay="600">
                 <div className="i">
                   <i className="fas fa-at"></i>
                 </div>
@@ -282,7 +282,7 @@ export default function Register() {
                   <input type="email" className="input" name="email" placeholder="Email" />
                 </div>
               </div>
-              <div className="input-div pass">
+              <div className="input-div pass" data-aos="fade-up" data-aos-delay="900">
                 <div className="i">
                   <i className="fas fa-lock"></i>
                 </div>
@@ -290,7 +290,7 @@ export default function Register() {
                   <input type="password" className="input" name="password" placeholder="Password" />
                 </div>
               </div>
-              <div className="input-div pass">
+              <div className="input-div pass" data-aos="fade-up" data-aos-delay="1200">
                 <div className="i">
                   <i className="fas fa-lock"></i>
                 </div>
@@ -346,7 +346,7 @@ export default function Register() {
               <Link href="/">
                 <a>Have an account ? Login here !</a>
               </Link>
-              <input type="submit" className="btn" value="Register" />
+              <input type="submit" className="btn" value="Register" data-aos="fade-up" data-aos-delay="1500" />
             </form>
             <br />
             <br />

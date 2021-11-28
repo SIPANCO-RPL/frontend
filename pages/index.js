@@ -297,8 +297,8 @@ export default function Home() {
           <div className="login-content">
             <form action="" method="POST">
               <img src="/images/Landing/avatar.svg" alt="" />
-              <h2 className="title">Login</h2>
-              <div className="input-div one">
+              <h2 className="title" data-aos="fade-up">Login</h2>
+              <div className="input-div one" data-aos="fade-up" data-aos-delay="300">
                 <div className="i">
                   <i className="fas fa-user"></i>
                 </div>
@@ -312,7 +312,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="input-div pass">
+              <div className="input-div pass" data-aos="fade-up" data-aos-delay="600">
                 <div className="i">
                   <i className="fas fa-lock"></i>
                 </div>
@@ -343,7 +343,7 @@ export default function Home() {
                   Dont have an account ? Register here !
                 </a>
               </Link>
-              <input type="submit" className="btn" value="Login" />
+              <input type="submit" className="btn" value="Login" data-aos="fade-up" data-aos-delay="900"/>
             </form>
           </div>
         </div>
